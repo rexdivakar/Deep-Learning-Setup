@@ -1,5 +1,5 @@
 from ai_benchmark import AIBenchmark
-benchmark = AIBenchmark()
+benchmark = AIBenchmark(use_CPU={True, False, None})
 results = benchmark.run()
 
 
