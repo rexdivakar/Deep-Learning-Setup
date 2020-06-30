@@ -1,0 +1,1 @@
+conda env create -v -f tensorflow-gpu.yml
