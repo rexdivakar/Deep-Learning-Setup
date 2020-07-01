@@ -23,4 +23,5 @@ dependencies:
         - gym
         - kaggle
         - opencv-python
+        - pipreqs
         
