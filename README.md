@@ -3,7 +3,7 @@
 
 Assuming you have MiniConda installed, run the following command from a terminal prompt. Make sure you downloaded the tensorflow.yml script to the same directory so that Conda can find it.
 
-## conda env create -v -f tensorflow.yml
+## conda env create -v -f Tensorflow-gpu.yml
 
 
 To enter this environment, you must use the following command. You must execute this command every time you open a new Anaconda/Miniconda terminal window:
