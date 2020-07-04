@@ -10,10 +10,17 @@ To enter this environment, you must use the following command. You must execute 
 
 ## conda activate tensorflow
 
-
 You must also link your new tensorflow environment to Jupyter so that you can choose it as a Kernal. Always make sure to run your Jupyter notebooks from your 3.7 kernel. You should only need to enter this command once.
 
 ## python -m ipykernel install --user --name tensorflow --display-name "Python 3.7 (tensorflow)"
 
 
 At this point, you should have a working Python environment for TensorFlow.
+
+
+## conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+
+
+To Del an env,
+
+## conda env remove -n tensorflow -y

@@ -19,8 +19,6 @@ dependencies:
     - boto3
     - nltk
     - pip:
-        - bayesian-optimization
-        - gym
         - kaggle
         - opencv-python
         - pipreqs
