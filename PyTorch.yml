@@ -1,15 +1,23 @@
-name: tensorflow
- 
+name: Pytorch
+
+channels:
+  - defaults
+  - pytorch
 dependencies:
     - python=3.7
     - pip>=19.0
+    - pytorch=1.5.1
+    - torchvision=0.2.2
     - jupyter
-    - tensorflow=2.0
+    - numpy
+    - plotly
+    - tensorflow-gpu
     - scikit-learn
     - scipy
     - pandas
     - pandas-datareader
     - matplotlib
+    - seaborn
     - pillow
     - tqdm
     - requests
@@ -19,7 +27,6 @@ dependencies:
     - boto3
     - nltk
     - pip:
-        - kaggle
         - opencv-python
         - pipreqs
         

@@ -15,6 +15,10 @@ Make sure you downloaded the tensorflow.yml script to the same directory so that
 
 ## conda env create -v -f Tensorflow-gpu.yml
 
+For Pytorch Setup
+
+## conda env create -v -f PyTorch.yml
+
 
 To enter this environment, you must use the following command. You must execute this command every time you open a new Anaconda/Miniconda terminal window:
 
