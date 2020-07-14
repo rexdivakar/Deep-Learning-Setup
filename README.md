@@ -1,15 +1,19 @@
 # Tf_GPU_test
+# Download all the below drivers
 
+## Installtion Steps:
 
-Assuming you have Anaconda or MiniConda installed, run the following command from a terminal prompt. 
+1. Install Anaconda or Miniconda  https://www.anaconda.com/products/individual
+2. Install the Nvidia Drivers     https://www.nvidia.com/drivers —CUDA 10.1 requires 418.x or higher.
+3. Now install CUDNN              https://developer.nvidia.com/cuda-toolkit-archive —TensorFlow supports CUDA 10.1 (TensorFlow >= 2.1.0)
+4. Download CUDNN and extract the zip,  https://developer.nvidia.com/cudnn (>= 7.6) 
+  you should see \cudnn-10.2-windows10-x64-v7.6.5.32.zip\cuda\ once done copy everything and paste it to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2 
 
-https://www.nvidia.com/drivers —CUDA 10.1 requires 418.x or higher.
+Else you can use the setup i have added,
 
-https://developer.nvidia.com/cuda-toolkit-archive —TensorFlow supports CUDA 10.1 (TensorFlow >= 2.1.0)
+https://drive.google.com/drive/folders/1NbLjakvaZ_5N-cdOFYF0GKhSZeagU6UY?usp=sharing
 
-https://developer.nvidia.com/cudnn (>= 7.6)
-
-Download the appropriate drivers and install them,
+Now go to your terminal,
 
 Make sure you downloaded the tensorflow.yml script to the same directory so that Conda can find it.
 
@@ -40,3 +44,8 @@ To Del an env
 ## conda env remove -n tensorflow -y
 
 To verify the setup use version.py for checking the tf version and to test GPU setup use gpu_setup.py
+
+# In case u have errors, please follow the below steps.
+
+1. DLL error then extract the DDL script from ddl.zip and paste it to C:\Windows\System32.
+2. Run the Visual studio driver attached for device kernel compatibility issues.
