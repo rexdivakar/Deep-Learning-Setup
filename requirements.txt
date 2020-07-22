@@ -1,4 +1,0 @@
-tensorflow-gpu
-nltk
-ai_benchmark
-ipynb-py-convert
