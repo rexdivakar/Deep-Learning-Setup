@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+# Download all the below drivers
+
+## Installtion Steps:
+
+1. Install Anaconda or Miniconda  https://www.anaconda.com/products/individual
+2. Install the Nvidia Drivers     https://www.nvidia.com/drivers —CUDA 10.1 requires 418.x or higher.
+3. Now install CUDNN              https://developer.nvidia.com/cuda-toolkit-archive —TensorFlow supports CUDA 10.1 (TensorFlow >= 2.1.0)
+4. Download CUDNN and extract the zip,  https://developer.nvidia.com/cudnn (>= 7.6) 
+  you should see \cudnn-10.2-windows10-x64-v7.6.5.32.zip\cuda\ once done copy everything and paste it to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2 
+
+### *************************************************************************************************************
+
+
+Sharing the drivers i use, https://drive.google.com/drive/folders/1NbLjakvaZ_5N-cdOFYF0GKhSZeagU6UY?usp=sharing
+
+
+## For easier installation use the bat files, Run the file Cuda.bat to download Cuda10.2 Version libraries now run the file cudnn.bat to download to extract the cudnn libraries over the Nvidia Toolkit and proceed further for environment setup
+
+
+## Environment Creatition
+
+After downloading all the files and successfull instllation now run it manually,
+### run tensorflow.bat or pytorch.bat for automated install,
+
+## Tensorflow
+
+### conda env create -v -f Tensorflow-gpu.yml
+
+## Pytorch Setup
+
+### conda env create -v -f PyTorch.yml
+
+To enter this environment, you must use the following command. You must execute this command every time you open a new Anaconda/Miniconda terminal window:
+
+## conda activate tensorflow
+
+You must also link your new tensorflow environment to Jupyter so that you can choose it as a Kernal. Always make sure to run your Jupyter notebooks from your 3.7 kernel. You should only need to enter this command once.
+
+## python -m ipykernel install --user --name tensorflow --display-name "Python 3.7 (tensorflow)"
+
+
+At this point, you should have a working Python environment for TensorFlow.
+
+## conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+
+
+To Del an env
+
+## conda env remove -n tensorflow -y
+
+To verify the setup use version.py for checking the tf version and to test GPU setup use gpu_setup.py
+
+# In case u have errors, please follow the below steps.
+
+1. DLL error then extract the DDL script from ddl.zip and paste it to C:\Windows\System32.
+2. Run the Visual studio driver attached for device kernel compatibility issues.
+
 
 You can use the [editor on GitHub](https://github.com/rexdivakar/Deep-Learning-Setup/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rexdivakar/Deep-Learning-Setup/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
