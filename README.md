@@ -1,4 +1,4 @@
-# Tf_GPU_test
+# Tf_GPU_test (star ma repo if u like it)
 # Download all the below drivers
 
 ## Installtion Steps:
@@ -13,8 +13,8 @@ Else you can use the setup i have added,
 
 https://drive.google.com/drive/folders/1NbLjakvaZ_5N-cdOFYF0GKhSZeagU6UY?usp=sharing
 
-Run the file Cuda.bat to download Cuda10.2 Version libraries
-now run the file cudnn.bat to download to extract the cudnn libraries over the Nvidia Toolkit and proceed further for environment setup
+## Run the file Cuda.bat to download Cuda10.2 Version libraries
+## now run the file cudnn.bat to download to extract the cudnn libraries over the Nvidia Toolkit and proceed further for environment setup
 
 Now go to your terminal,
 
