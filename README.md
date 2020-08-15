@@ -13,6 +13,9 @@ Else you can use the setup i have added,
 
 https://drive.google.com/drive/folders/1NbLjakvaZ_5N-cdOFYF0GKhSZeagU6UY?usp=sharing
 
+Run the file Cuda.bat to download Cuda10.2 Version libraries
+now run the file cudnn.bat to download to extract the cudnn libraries over the Nvidia Toolkit and proceed further for environment setup
+
 Now go to your terminal,
 
 Make sure you downloaded the tensorflow.yml script to the same directory so that Conda can find it.
