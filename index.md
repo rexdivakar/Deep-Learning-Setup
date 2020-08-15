@@ -1,21 +1,23 @@
-# Download all the below drivers
+# Deeplearning basic system setup
+### This only works for machines using dedicated NVIDIA GPU
 
-## Installtion Steps:
+## Drivers:
 
-1. Install Anaconda or Miniconda  [Anaconda](https://www.anaconda.com/products/individual)
-2. Install the Nvidia Drivers     https://www.nvidia.com/drivers —CUDA 10.1 requires 418.x or higher.
-3. Now install CUDNN              https://developer.nvidia.com/cuda-toolkit-archive —TensorFlow supports CUDA 10.1 (TensorFlow >= 2.1.0)
-4. Download CUDNN and extract the zip,  https://developer.nvidia.com/cudnn (>= 7.6) 
-  you should see \cudnn-10.2-windows10-x64-v7.6.5.32.zip\cuda\ once done copy everything and paste it to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2 
+1. Install Python [Anaconda](https://www.anaconda.com/products/individual)
+2. Now choose the appropriate [Nvidia Drivers](https://www.nvidia.com/drivers) —CUDA 10.1 requires 418.x or higher.
+3. Download the [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive) —TensorFlow supports CUDA 10.1 (TensorFlow >= 2.1.0)
+4. Now download the [Cudnn libraries](https://developer.nvidia.com/cudnn (>= 7.6) 
 
-### *************************************************************************************************************
+## Manual download of drivers with fixed version no:
 
+Conveniently download the NVIDIA driver as per ur device, [My Setup](https://drive.google.com/drive/folders/1NbLjakvaZ_5N-cdOFYF0GKhSZeagU6UY?usp=sharing)
 
-Sharing the drivers i use, https://drive.google.com/drive/folders/1NbLjakvaZ_5N-cdOFYF0GKhSZeagU6UY?usp=sharing
+## Installation Setup
 
-
-## For easier installation use the bat files, Run the file Cuda.bat to download Cuda10.2 Version libraries now run the file cudnn.bat to download to extract the cudnn libraries over the Nvidia Toolkit and proceed further for environment setup
-
+1. Install Anaconda first, then install the NVIDIA drivers as per ur machine.
+2. Install CUDA Toolkit with default settings and usually it takes time so bare with it !
+3. Now extract the Cudnn libraries zip file and copy all the files to "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2" location and overwrite the files on that location. (If u find this step difficult run the cudnn.bat file as Administrator which will do it for you)
+4. On successfull completion of the above steps proceed further to creation of virtual environments.
 
 ## Environment Creatition
 
@@ -55,5 +57,3 @@ To verify the setup use version.py for checking the tf version and to test GPU s
 1. DLL error then extract the DDL script from ddl.zip and paste it to C:\Windows\System32.
 2. Run the Visual studio driver attached for device kernel compatibility issues.
 
-
-You can use the [editor on GitHub](https://github.com/rexdivakar/Deep-Learning-Setup/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
