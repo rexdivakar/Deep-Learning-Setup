@@ -2,7 +2,7 @@
 
 ## Installtion Steps:
 
-1. Install Anaconda or Miniconda  [Anaconda] (https://www.anaconda.com/products/individual)
+1. Install Anaconda or Miniconda  [Anaconda](https://www.anaconda.com/products/individual)
 2. Install the Nvidia Drivers     https://www.nvidia.com/drivers —CUDA 10.1 requires 418.x or higher.
 3. Now install CUDNN              https://developer.nvidia.com/cuda-toolkit-archive —TensorFlow supports CUDA 10.1 (TensorFlow >= 2.1.0)
 4. Download CUDNN and extract the zip,  https://developer.nvidia.com/cudnn (>= 7.6) 
