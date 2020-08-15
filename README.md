@@ -1,4 +1,3 @@
-# Tf_GPU_test (star ma repo if u like it)
 # Download all the below drivers
 
 ## Installtion Steps:
@@ -9,23 +8,28 @@
 4. Download CUDNN and extract the zip,  https://developer.nvidia.com/cudnn (>= 7.6) 
   you should see \cudnn-10.2-windows10-x64-v7.6.5.32.zip\cuda\ once done copy everything and paste it to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2 
 
-Else you can use the setup i have added,
+### *************************************************************************************************************
 
-https://drive.google.com/drive/folders/1NbLjakvaZ_5N-cdOFYF0GKhSZeagU6UY?usp=sharing
 
-## Run the file Cuda.bat to download Cuda10.2 Version libraries
+Sharing the drivers i use, https://drive.google.com/drive/folders/1NbLjakvaZ_5N-cdOFYF0GKhSZeagU6UY?usp=sharing
+
+
+## For easier installation use the bat files, Run the file Cuda.bat to download Cuda10.2 Version libraries
 ## now run the file cudnn.bat to download to extract the cudnn libraries over the Nvidia Toolkit and proceed further for environment setup
 
-Now go to your terminal,
 
-Make sure you downloaded the tensorflow.yml script to the same directory so that Conda can find it.
+## Environment Creatition
 
-## conda env create -v -f Tensorflow-gpu.yml
+After downloading all the files and successfull instllation now run it manually,
+### run tensorflow.bat or pytorch.bat for automated install,
 
-For Pytorch Setup
+## Tensorflow
 
-## conda env create -v -f PyTorch.yml
+### conda env create -v -f Tensorflow-gpu.yml
 
+## Pytorch Setup
+
+### conda env create -v -f PyTorch.yml
 
 To enter this environment, you must use the following command. You must execute this command every time you open a new Anaconda/Miniconda terminal window:
 
@@ -37,7 +41,6 @@ You must also link your new tensorflow environment to Jupyter so that you can ch
 
 
 At this point, you should have a working Python environment for TensorFlow.
-
 
 ## conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 
