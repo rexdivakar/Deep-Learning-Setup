@@ -14,8 +14,7 @@
 Sharing the drivers i use, https://drive.google.com/drive/folders/1NbLjakvaZ_5N-cdOFYF0GKhSZeagU6UY?usp=sharing
 
 
-## For easier installation use the bat files, Run the file Cuda.bat to download Cuda10.2 Version libraries
-## now run the file cudnn.bat to download to extract the cudnn libraries over the Nvidia Toolkit and proceed further for environment setup
+## For easier installation use the bat files, Run the file Cuda.bat to download Cuda10.2 Version libraries now run the file cudnn.bat to download to extract the cudnn libraries over the Nvidia Toolkit and proceed further for environment setup
 
 
 ## Environment Creatition
