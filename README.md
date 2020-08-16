@@ -6,7 +6,7 @@
 1. Install Python [Anaconda](https://www.anaconda.com/products/individual)
 2. Now choose the appropriate [Nvidia Drivers](https://www.nvidia.com/drivers) —CUDA 10.1 requires 418.x or higher.
 3. Download the [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive) —TensorFlow supports CUDA 10.1 (TensorFlow >= 2.1.0)
-4. Now download the [Cudnn libraries](https://developer.nvidia.com/cudnn (>= 7.6) 
+4. Now download the [Cudnn libraries](https://developer.nvidia.com/cudnn) (>= 7.6) 
 
 ## Manual download of drivers with fixed version no:
 
